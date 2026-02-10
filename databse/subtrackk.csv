@@ -1,0 +1,374 @@
+"id","email_or_user","attempt_time","ip_address"
+"id","user_id","ip_address","browser","status","login_time"
+"3","10","::1","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0","success","2026-02-06 10:19:51"
+"4","10","::1","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36 Edg/144.0.0.0","success","2026-02-06 00:06:21"
+"5","10","::1","Chrome on Windows","success","2026-02-08 14:42:29"
+"6","10","::1","Unknown","success","2026-02-08 14:48:50"
+"7","10","::1","Unknown","success","2026-02-08 14:51:16"
+"8","10","::1","Unknown","success","2026-02-08 15:03:53"
+"9","10","::1","Unknown","success","2026-02-08 15:28:43"
+"10","10","::1","Unknown","success","2026-02-08 15:32:41"
+"11","10","::1","Unknown","success","2026-02-08 15:35:36"
+"12","10","::1","Unknown","success","2026-02-08 15:37:32"
+"13","10","::1","Unknown","success","2026-02-08 15:41:49"
+"14","10","::1","Unknown","success","2026-02-08 15:48:58"
+"15","10","::1","Unknown","success","2026-02-08 16:40:54"
+"id","name","category","plans_json","logo_icon"
+"1","Netflix","Entertainment","[
+    {""name"":""Standard with ads"",""price"":6.99,""cycle"":""Monthly""},
+    {""name"":""Standard"",""price"":15.49,""cycle"":""Monthly""},
+    {""name"":""Premium (4K)"",""price"":22.99,""cycle"":""Monthly""}
+]","fab fa-netflix"
+"2","Spotify","Entertainment","[
+    {""name"":""Individual"",""price"":11.99,""cycle"":""Monthly""},
+    {""name"":""Duo"",""price"":16.99,""cycle"":""Monthly""},
+    {""name"":""Family"",""price"":19.99,""cycle"":""Monthly""},
+    {""name"":""Student"",""price"":5.99,""cycle"":""Monthly""}
+]","fab fa-spotify"
+"3","Apple TV+","Entertainment","[
+    {""name"":""Monthly"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Yearly"",""price"":99.99,""cycle"":""Yearly""},
+    {""name"":""Apple One (Individual)"",""price"":19.95,""cycle"":""Monthly""},
+    {""name"":""Apple One (Family)"",""price"":25.95,""cycle"":""Monthly""}
+]","fab fa-apple"
+"4","Disney+","Entertainment","[
+    {""name"":""Basic (With Ads)"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Premium (No Ads)"",""price"":15.99,""cycle"":""Monthly""},
+    {""name"":""Premium Annual"",""price"":159.99,""cycle"":""Yearly""},
+    {""name"":""Duo Basic (Hulu Bundle)"",""price"":10.99,""cycle"":""Monthly""}
+]","fas fa-video"
+"5","YouTube Premium","Entertainment","[
+    {""name"":""Individual"",""price"":13.99,""cycle"":""Monthly""},
+    {""name"":""Family"",""price"":22.99,""cycle"":""Monthly""},
+    {""name"":""Student"",""price"":7.99,""cycle"":""Monthly""},
+    {""name"":""Annual"",""price"":139.99,""cycle"":""Yearly""}
+]","fab fa-youtube"
+"6","Hulu","Entertainment","[
+    {""name"":""With Ads"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""No Ads"",""price"":18.99,""cycle"":""Monthly""},
+    {""name"":""Hulu + Live TV (Ads)"",""price"":81.99,""cycle"":""Monthly""}
+]","fas fa-tv"
+"7","Max (HBO)","Entertainment","[
+    {""name"":""With Ads"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Ad-Free"",""price"":16.99,""cycle"":""Monthly""},
+    {""name"":""Ultimate Ad-Free"",""price"":20.99,""cycle"":""Monthly""},
+    {""name"":""Ad-Free Yearly"",""price"":169.99,""cycle"":""Yearly""}
+]","fas fa-film"
+"8","Amazon Prime","Utilities","[
+    {""name"":""Monthly"",""price"":14.99,""cycle"":""Monthly""},
+    {""name"":""Annual"",""price"":139.00,""cycle"":""Yearly""},
+    {""name"":""Student Monthly"",""price"":7.49,""cycle"":""Monthly""}
+]","fab fa-amazon"
+"9","Peacock","Entertainment","[
+    {""name"":""Premium"",""price"":7.99,""cycle"":""Monthly""},
+    {""name"":""Premium Plus"",""price"":13.99,""cycle"":""Monthly""},
+    {""name"":""Premium Annual"",""price"":79.99,""cycle"":""Yearly""}
+]","fas fa-crow"
+"10","Paramount+","Entertainment","[
+    {""name"":""Essential"",""price"":7.99,""cycle"":""Monthly""},
+    {""name"":""with Showtime"",""price"":12.99,""cycle"":""Monthly""},
+    {""name"":""Essential Annual"",""price"":59.99,""cycle"":""Yearly""}
+]","fas fa-mountain"
+"11","Crunchyroll","Entertainment","[
+    {""name"":""Fan"",""price"":7.99,""cycle"":""Monthly""},
+    {""name"":""Mega Fan"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Mega Fan Yearly"",""price"":99.99,""cycle"":""Yearly""}
+]","fas fa-dragon"
+"12","Audible","Personal","[
+    {""name"":""Plus"",""price"":7.95,""cycle"":""Monthly""},
+    {""name"":""Premium Plus"",""price"":14.95,""cycle"":""Monthly""},
+    {""name"":""Premium Plus (2 Credits)"",""price"":22.95,""cycle"":""Monthly""},
+    {""name"":""Annual (12 Credits)"",""price"":149.50,""cycle"":""Yearly""}
+]","fas fa-book-open"
+"13","Apple Music","Entertainment","[
+    {""name"":""Individual"",""price"":10.99,""cycle"":""Monthly""},
+    {""name"":""Family"",""price"":16.99,""cycle"":""Monthly""},
+    {""name"":""Student"",""price"":5.99,""cycle"":""Monthly""}
+]","fab fa-apple"
+"14","SoundCloud","Entertainment","[
+    {""name"":""Go"",""price"":4.99,""cycle"":""Monthly""},
+    {""name"":""Go+"",""price"":9.99,""cycle"":""Monthly""}
+]","fab fa-soundcloud"
+"15","Tidal","Entertainment","[
+    {""name"":""HiFi"",""price"":10.99,""cycle"":""Monthly""},
+    {""name"":""HiFi Plus"",""price"":19.99,""cycle"":""Monthly""},
+    {""name"":""Family"",""price"":16.99,""cycle"":""Monthly""}
+]","fas fa-wave-square"
+"16","Xbox Game Pass","Entertainment","[
+    {""name"":""Core"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Console"",""price"":10.99,""cycle"":""Monthly""},
+    {""name"":""PC"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Ultimate"",""price"":16.99,""cycle"":""Monthly""}
+]","fab fa-xbox"
+"17","PlayStation Plus","Entertainment","[
+    {""name"":""Essential"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Extra"",""price"":14.99,""cycle"":""Monthly""},
+    {""name"":""Premium"",""price"":17.99,""cycle"":""Monthly""},
+    {""name"":""Essential Yearly"",""price"":79.99,""cycle"":""Yearly""}
+]","fab fa-playstation"
+"18","Nintendo Switch Online","Entertainment","[
+    {""name"":""Individual (12 Mo)"",""price"":19.99,""cycle"":""Yearly""},
+    {""name"":""Expansion Pack"",""price"":49.99,""cycle"":""Yearly""},
+    {""name"":""Family"",""price"":34.99,""cycle"":""Yearly""}
+]","fas fa-gamepad"
+"19","Discord Nitro","Utilities","[
+    {""name"":""Basic"",""price"":2.99,""cycle"":""Monthly""},
+    {""name"":""Nitro"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Nitro Yearly"",""price"":99.99,""cycle"":""Yearly""}
+]","fab fa-discord"
+"20","Twitch","Entertainment","[
+    {""name"":""Tier 1 Sub"",""price"":5.99,""cycle"":""Monthly""},
+    {""name"":""Tier 2 Sub"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Tier 3 Sub"",""price"":24.99,""cycle"":""Monthly""},
+    {""name"":""Turbo"",""price"":11.99,""cycle"":""Monthly""}
+]","fab fa-twitch"
+"21","GeForce Now","Entertainment","[
+    {""name"":""Priority"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Ultimate"",""price"":19.99,""cycle"":""Monthly""},
+    {""name"":""Priority (6 Month)"",""price"":49.99,""cycle"":""Yearly""}
+]","fas fa-microchip"
+"22","Google One","Utilities","[
+    {""name"":""Basic (100GB)"",""price"":1.99,""cycle"":""Monthly""},
+    {""name"":""Standard (200GB)"",""price"":2.99,""cycle"":""Monthly""},
+    {""name"":""Premium (2TB)"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Basic Yearly"",""price"":19.99,""cycle"":""Yearly""},
+    {""name"":""Premium Yearly"",""price"":99.99,""cycle"":""Yearly""}
+]","fab fa-google"
+"23","iCloud+","Utilities","[
+    {""name"":""50GB"",""price"":0.99,""cycle"":""Monthly""},
+    {""name"":""200GB"",""price"":2.99,""cycle"":""Monthly""},
+    {""name"":""2TB"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""6TB"",""price"":29.99,""cycle"":""Monthly""}
+]","fab fa-apple"
+"24","Dropbox","Work/Tools","[
+    {""name"":""Plus"",""price"":11.99,""cycle"":""Monthly""},
+    {""name"":""Family"",""price"":19.99,""cycle"":""Monthly""},
+    {""name"":""Professional"",""price"":19.99,""cycle"":""Monthly""},
+    {""name"":""Plus Yearly"",""price"":119.88,""cycle"":""Yearly""}
+]","fab fa-dropbox"
+"25","NordVPN","Utilities","[
+    {""name"":""Standard Monthly"",""price"":12.99,""cycle"":""Monthly""},
+    {""name"":""Plus Monthly"",""price"":13.99,""cycle"":""Monthly""},
+    {""name"":""Standard 1-Year"",""price"":59.88,""cycle"":""Yearly""},
+    {""name"":""Standard 2-Year"",""price"":83.76,""cycle"":""Yearly""}
+]","fas fa-shield-alt"
+"26","ExpressVPN","Utilities","[
+    {""name"":""Monthly"",""price"":12.95,""cycle"":""Monthly""},
+    {""name"":""6 Months"",""price"":59.95,""cycle"":""Yearly""},
+    {""name"":""12 Months"",""price"":99.95,""cycle"":""Yearly""}
+]","fas fa-shield-alt"
+"27","LastPass","Utilities","[
+    {""name"":""Premium"",""price"":3.00,""cycle"":""Monthly""},
+    {""name"":""Families"",""price"":4.00,""cycle"":""Monthly""},
+    {""name"":""Premium Yearly"",""price"":36.00,""cycle"":""Yearly""}
+]","fas fa-key"
+"28","1Password","Utilities","[
+    {""name"":""Individual"",""price"":2.99,""cycle"":""Monthly""},
+    {""name"":""Families"",""price"":4.99,""cycle"":""Monthly""},
+    {""name"":""Individual Yearly"",""price"":35.88,""cycle"":""Yearly""}
+]","fas fa-key"
+"29","ChatGPT","Work/Tools","[
+    {""name"":""Plus"",""price"":20.00,""cycle"":""Monthly""},
+    {""name"":""Team"",""price"":25.00,""cycle"":""Monthly""}
+]","fas fa-robot"
+"30","Claude Pro","Work/Tools","[
+    {""name"":""Pro"",""price"":20.00,""cycle"":""Monthly""}
+]","fas fa-brain"
+"31","GitHub Copilot","Work/Tools","[
+    {""name"":""Individual"",""price"":10.00,""cycle"":""Monthly""},
+    {""name"":""Yearly"",""price"":100.00,""cycle"":""Yearly""}
+]","fab fa-github"
+"32","Midjourney","Work/Tools","[
+    {""name"":""Basic"",""price"":10.00,""cycle"":""Monthly""},
+    {""name"":""Standard"",""price"":30.00,""cycle"":""Monthly""},
+    {""name"":""Pro"",""price"":60.00,""cycle"":""Monthly""},
+    {""name"":""Mega"",""price"":120.00,""cycle"":""Monthly""}
+]","fas fa-palette"
+"33","Perplexity","Work/Tools","[
+    {""name"":""Pro Monthly"",""price"":20.00,""cycle"":""Monthly""},
+    {""name"":""Pro Yearly"",""price"":200.00,""cycle"":""Yearly""}
+]","fas fa-search"
+"34","JetBrains","Work/Tools","[
+    {""name"":""All Products Pack"",""price"":28.90,""cycle"":""Monthly""},
+    {""name"":""IntelliJ IDEA"",""price"":16.90,""cycle"":""Monthly""},
+    {""name"":""All Products Yearly"",""price"":289.00,""cycle"":""Yearly""}
+]","fas fa-code"
+"35","Vercel","Work/Tools","[
+    {""name"":""Pro"",""price"":20.00,""cycle"":""Monthly""}
+]","fas fa-network-wired"
+"36","Heroku","Work/Tools","[
+    {""name"":""Eco"",""price"":5.00,""cycle"":""Monthly""},
+    {""name"":""Basic"",""price"":7.00,""cycle"":""Monthly""},
+    {""name"":""Standard"",""price"":25.00,""cycle"":""Monthly""}
+]","fas fa-server"
+"37","DigitalOcean","Work/Tools","[
+    {""name"":""Droplet Basic"",""price"":6.00,""cycle"":""Monthly""},
+    {""name"":""Droplet Premium"",""price"":7.00,""cycle"":""Monthly""}
+]","fab fa-digital-ocean"
+"38","Adobe CC","Work/Tools","[
+    {""name"":""Photography (20GB)"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Single App"",""price"":22.99,""cycle"":""Monthly""},
+    {""name"":""All Apps"",""price"":59.99,""cycle"":""Monthly""},
+    {""name"":""Student All Apps"",""price"":19.99,""cycle"":""Monthly""}
+]","fab fa-adobe"
+"39","Figma","Work/Tools","[
+    {""name"":""Professional"",""price"":15.00,""cycle"":""Monthly""},
+    {""name"":""Professional Yearly"",""price"":144.00,""cycle"":""Yearly""},
+    {""name"":""Organization"",""price"":45.00,""cycle"":""Monthly""}
+]","fab fa-figma"
+"40","Canva","Work/Tools","[
+    {""name"":""Pro Monthly"",""price"":14.99,""cycle"":""Monthly""},
+    {""name"":""Pro Yearly"",""price"":119.99,""cycle"":""Yearly""},
+    {""name"":""Teams"",""price"":29.99,""cycle"":""Monthly""}
+]","fas fa-paint-brush"
+"41","Notion","Work/Tools","[
+    {""name"":""Plus Monthly"",""price"":10.00,""cycle"":""Monthly""},
+    {""name"":""Plus Yearly"",""price"":96.00,""cycle"":""Yearly""},
+    {""name"":""Business"",""price"":18.00,""cycle"":""Monthly""}
+]","fas fa-sticky-note"
+"42","Microsoft 365","Work/Tools","[
+    {""name"":""Personal Monthly"",""price"":6.99,""cycle"":""Monthly""},
+    {""name"":""Personal Yearly"",""price"":69.99,""cycle"":""Yearly""},
+    {""name"":""Family Monthly"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Family Yearly"",""price"":99.99,""cycle"":""Yearly""}
+]","fab fa-microsoft"
+"43","Slack","Work/Tools","[
+    {""name"":""Pro"",""price"":8.75,""cycle"":""Monthly""},
+    {""name"":""Business+"",""price"":15.00,""cycle"":""Monthly""}
+]","fab fa-slack"
+"44","Zoom","Work/Tools","[
+    {""name"":""Pro Monthly"",""price"":15.99,""cycle"":""Monthly""},
+    {""name"":""Pro Yearly"",""price"":149.90,""cycle"":""Yearly""},
+    {""name"":""Business"",""price"":21.99,""cycle"":""Monthly""}
+]","fas fa-video"
+"45","Trello","Work/Tools","[
+    {""name"":""Standard"",""price"":6.00,""cycle"":""Monthly""},
+    {""name"":""Premium"",""price"":12.50,""cycle"":""Monthly""}
+]","fab fa-trello"
+"46","Evernote","Work/Tools","[
+    {""name"":""Personal"",""price"":14.99,""cycle"":""Monthly""},
+    {""name"":""Professional"",""price"":17.99,""cycle"":""Monthly""},
+    {""name"":""Personal Yearly"",""price"":129.99,""cycle"":""Yearly""}
+]","fas fa-elephant"
+"47","Duolingo","Personal","[
+    {""name"":""Super Monthly"",""price"":12.99,""cycle"":""Monthly""},
+    {""name"":""Super Family"",""price"":29.99,""cycle"":""Monthly""},
+    {""name"":""Super Yearly"",""price"":83.99,""cycle"":""Yearly""}
+]","fas fa-language"
+"48","Strava","Personal","[
+    {""name"":""Monthly"",""price"":11.99,""cycle"":""Monthly""},
+    {""name"":""Annual"",""price"":79.99,""cycle"":""Yearly""}
+]","fas fa-running"
+"49","MyFitnessPal","Personal","[
+    {""name"":""Premium Monthly"",""price"":19.99,""cycle"":""Monthly""},
+    {""name"":""Premium Annual"",""price"":79.99,""cycle"":""Yearly""}
+]","fas fa-apple-alt"
+"50","Peloton","Personal","[
+    {""name"":""App One"",""price"":12.99,""cycle"":""Monthly""},
+    {""name"":""App+ field"",""price"":24.00,""cycle"":""Monthly""},
+    {""name"":""All-Access"",""price"":44.00,""cycle"":""Monthly""}
+]","fas fa-bicycle"
+"51","Calm","Personal","[
+    {""name"":""Annual"",""price"":69.99,""cycle"":""Yearly""},
+    {""name"":""Lifetime"",""price"":399.99,""cycle"":""Yearly""}
+]","fas fa-spa"
+"52","Headspace","Personal","[
+    {""name"":""Monthly"",""price"":12.99,""cycle"":""Monthly""},
+    {""name"":""Annual"",""price"":69.99,""cycle"":""Yearly""}
+]","fas fa-brain"
+"53","Tinder","Personal","[
+    {""name"":""Plus"",""price"":7.99,""cycle"":""Monthly""},
+    {""name"":""Gold"",""price"":24.99,""cycle"":""Monthly""},
+    {""name"":""Platinum"",""price"":29.99,""cycle"":""Monthly""}
+]","fas fa-fire"
+"54","Bumble","Personal","[
+    {""name"":""Boost"",""price"":16.99,""cycle"":""Monthly""},
+    {""name"":""Premium"",""price"":39.99,""cycle"":""Monthly""},
+    {""name"":""Premium Plus"",""price"":49.99,""cycle"":""Monthly""}
+]","fas fa-heart"
+"55","X Premium (Twitter)","Personal","[
+    {""name"":""Basic"",""price"":3.00,""cycle"":""Monthly""},
+    {""name"":""Premium"",""price"":8.00,""cycle"":""Monthly""},
+    {""name"":""Premium+"",""price"":16.00,""cycle"":""Monthly""},
+    {""name"":""Premium Annual"",""price"":84.00,""cycle"":""Yearly""}
+]","fab fa-twitter"
+"56","LinkedIn Premium","Work/Tools","[
+    {""name"":""Career"",""price"":39.99,""cycle"":""Monthly""},
+    {""name"":""Business"",""price"":59.99,""cycle"":""Monthly""},
+    {""name"":""Sales Navigator"",""price"":99.99,""cycle"":""Monthly""}
+]","fab fa-linkedin"
+"57","Telegram Premium","Personal","[
+    {""name"":""Monthly"",""price"":4.99,""cycle"":""Monthly""},
+    {""name"":""Annual"",""price"":39.99,""cycle"":""Yearly""}
+]","fab fa-telegram"
+"58","Snapchat+","Personal","[
+    {""name"":""Monthly"",""price"":3.99,""cycle"":""Monthly""},
+    {""name"":""Yearly"",""price"":29.99,""cycle"":""Yearly""}
+]","fab fa-snapchat"
+"59","Uber One","Utilities","[
+    {""name"":""Monthly"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Annual"",""price"":96.00,""cycle"":""Yearly""}
+]","fab fa-uber"
+"60","DoorDash","Utilities","[
+    {""name"":""DashPass"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""DashPass Student"",""price"":4.99,""cycle"":""Monthly""}
+]","fas fa-hamburger"
+"61","Instacart+","Utilities","[
+    {""name"":""Monthly"",""price"":9.99,""cycle"":""Monthly""},
+    {""name"":""Annual"",""price"":99.00,""cycle"":""Yearly""}
+]","fas fa-carrot"
+"62","Walmart+","Utilities","[
+    {""name"":""Monthly"",""price"":12.95,""cycle"":""Monthly""},
+    {""name"":""Annual"",""price"":98.00,""cycle"":""Yearly""}
+]","fas fa-shopping-cart"
+"63","NY Times","Personal","[
+    {""name"":""Basic Digital"",""price"":4.00,""cycle"":""Monthly""},
+    {""name"":""All Access"",""price"":25.00,""cycle"":""Monthly""}
+]","fas fa-newspaper"
+"64","Coursera","Personal","[
+    {""name"":""Plus Monthly"",""price"":59.00,""cycle"":""Monthly""},
+    {""name"":""Plus Annual"",""price"":399.00,""cycle"":""Yearly""}
+]","fas fa-graduation-cap"
+"id","site_name","currency_symbol","allow_signups","maintenance_mode","allow_signup","announcement_text","announcement_active"
+"1","SubTrack","$","1","0","1","helloooooooooooooooo","0"
+"id","user_id","service_name","price","currency","billing_period","start_date","next_due_date","status","category","cancel_url","payment_method","is_trial","created_at","archived_at","auto_delete_at","tags","last_used","snooze_until"
+"21","4","Max","16.99","USD","Monthly","2026-02-03","2026-03-03","active","Entertainment",,"Card","0","2026-02-04 00:50:55",NULL,NULL,NULL,"2026-02-05",NULL
+"22","7","ChatGPT","20.00","USD","Monthly","2026-02-04","2026-03-04","active","Work/Tools",,"Card","0","2026-02-04 00:50:55",NULL,NULL,NULL,"2026-02-05",NULL
+"23","4","Evernote","14.99","USD","Monthly","2026-02-01","2026-03-01","active","Work/Tools",,"Card","0","2026-02-04 00:50:55",NULL,NULL,NULL,"2026-02-05",NULL
+"24","4","ChatGPT","20.00","USD","Monthly","2026-01-01","2026-02-01","active","Work/Tools",,"Card","0","2026-02-04 00:50:55",NULL,NULL,NULL,"2026-02-05",NULL
+"32","10","PlayStation Plus","9.99","USD","Monthly","2026-02-13","2026-03-13","archived","Entertainment",,"Card","0","2026-02-04 00:50:55","2026-02-08 17:03:19","2026-02-11 17:03:19",NULL,"2026-02-05",NULL
+"33","10","Duolingo","83.99","USD","Yearly","2026-02-27","2027-02-27","archived","Personal",,"Card","0","2026-02-04 00:50:55","2026-02-08 00:42:03","2026-02-11 00:42:03",NULL,"2026-02-05",NULL
+"34","10","Max","99.99","USD","Yearly","2026-02-01","2027-02-01","archived","Entertainment",,"Card","0","2026-02-04 00:50:55","2026-02-08 00:41:58","2026-02-11 00:41:58",NULL,"2026-02-05",NULL
+"36","11","Netflix","15.49","USD","Monthly","2026-02-01","2026-03-01","active","Entertainment",,"Card","0","2026-02-04 10:17:52",NULL,NULL,NULL,"2026-02-05",NULL
+"37","11","Apple Music","109.00","USD","Yearly","2026-02-12","2027-02-12","active","Entertainment",,"Card","0","2026-02-04 10:20:09",NULL,NULL,NULL,"2026-02-05",NULL
+"38","10","SoundCloud","9.99","USD","Monthly","2026-02-20","2026-03-20","archived","Entertainment",,"Card","0","2026-02-05 17:10:18","2026-02-08 17:03:25","2026-02-11 17:03:25",NULL,"2026-02-05",NULL
+"39","10","NordVPN","12.99","USD","Monthly","2026-02-28","2026-03-28","archived","Work/Tools",,"Card","0","2026-02-05 17:10:26","2026-02-08 17:03:29","2026-02-11 17:03:29",NULL,"2026-02-05",NULL
+"40","10","Dropbox","11.99","USD","Monthly","2026-02-21","2026-03-21","archived","Work/Tools",,"Card","0","2026-02-05 17:10:34","2026-02-08 17:03:22","2026-02-11 17:03:22",NULL,"2026-02-05",NULL
+"43","10","Adobe CC","9.99","USD","Monthly","2026-02-05","2026-03-05","archived","Work/Tools",,"Card","0","2026-02-05 18:31:52","2026-02-08 17:03:05","2026-02-11 17:03:05",NULL,"2026-02-05",NULL
+"44","13","Netflix","6.99","USD","Monthly","2026-02-20","2026-03-20","active","Entertainment",,"Card","0","2026-02-05 18:59:31",NULL,NULL,NULL,"2026-02-05",NULL
+"45","13","Disney+","7.99","USD","Monthly","2026-02-06","2026-03-06","active","Entertainment",,"Card","0","2026-02-05 18:59:37",NULL,NULL,NULL,"2026-02-05",NULL
+"47","10","Strava","11.99","USD","Monthly","2026-01-04","2026-02-04","archived","Personal",,"Card","0","2026-02-05 23:06:47","2026-02-08 17:02:52","2026-02-11 17:02:52",,"2026-02-05",NULL
+"48","10","Spotify","11.99","USD","Monthly","2026-01-06","2026-03-06","archived","Entertainment",,"Card","0","2026-02-05 23:08:39","2026-02-08 17:03:12","2026-02-11 17:03:12",,"2026-02-05",NULL
+"49","10","Tinder","100.00","USD","Monthly","2026-01-06","2026-03-06","archived","Personal",,"Card","0","2026-02-05 23:35:18","2026-02-08 17:03:08","2026-02-11 17:03:08",,"2026-02-05",NULL
+"50","10","Apple Music","16.99","USD","Monthly","2026-01-07","2026-03-07","archived","Entertainment",,"Card","0","2026-02-06 09:49:41","2026-02-08 17:03:15","2026-02-11 17:03:15",,"2026-02-06",NULL
+"52","10","Midjourney","10.00","USD","Monthly","2026-01-09","2026-02-09","archived","Work/Tools",NULL,"Card","0","2026-02-08 16:47:48","2026-02-08 17:02:55","2026-02-11 17:02:55",,"2026-02-08","2026-02-10 17:00:33"
+"53","10","Asana","10.99","USD","Monthly","2026-01-09","2026-02-09","archived","Work/Tools",NULL,"Card","0","2026-02-08 17:00:08","2026-02-08 17:03:01","2026-02-11 17:03:01",,"2026-02-08","2026-02-10 17:00:31"
+"54","10","Apple TV+","99.99","USD","Yearly","2026-01-09","2027-01-09","active","Entertainment",NULL,"Card","0","2026-02-08 17:06:02",NULL,"2026-02-11 17:25:01",,"2026-02-08",NULL
+"55","10","Figma","144.00","USD","Yearly","2026-01-09","2027-01-09","archived","Work/Tools",NULL,"Card","0","2026-02-08 17:10:06","2026-02-08 17:11:08","2026-02-11 17:11:08",,"2026-02-08",NULL
+"56","10","NY Times","25.00","USD","Monthly","2026-01-09","2026-02-09","active","Personal",NULL,"Card","0","2026-02-08 17:10:30",NULL,NULL,,"2026-02-08","2026-02-10 17:10:35"
+"57","10","DoorDash","4.99","USD","Monthly","2026-02-27","2026-03-27","active","Utilities",NULL,"Card","0","2026-02-08 17:24:52",NULL,"2026-02-11 17:24:57",,"2026-02-08",NULL
+"58","10","Netflix","22.99","USD","Monthly","2026-01-09","2026-02-09","active","Entertainment",NULL,"Card","0","2026-02-08 17:33:54",NULL,NULL,,"2026-02-08",NULL
+"59","10","Disney+","159.99","USD","Yearly","2026-02-05","2027-02-05","active","Entertainment",NULL,"Card","0","2026-02-08 17:41:37",NULL,NULL,,"2026-02-08",NULL
+"subscription_id","tag_id"
+"id","user_id","tag_name","color_hex"
+"id","username","email","password","created_at","role","security_question","security_answer","profile_pic","bio","reset_token","token_expiry","budget_limit","full_name","phone_number","location","status","two_factor_enabled","two_factor_secret"
+"4","vishallll","vishalpiprotar7@gmail.com","vishallll@123","2026-02-02 19:57:33","user","What is your favorite color?","red","default.png",NULL,NULL,NULL,"500.00",,,,"active","0",NULL
+"5","hiten","hiten@gmail.com","$2y$10$hPHpuPDLfBu7XFVlYHS.euDUVN7SiWE2674u07gBx/2UmjntLoUOe","2026-02-03 08:02:50","user","What is your pet name?","dog","default.png",NULL,NULL,NULL,"500.00",,,,"banned","0",NULL
+"6","divya","div@gmail.com","$2y$10$I3/sBCmgAzihgbQtqnC7e.AyLyPXjPHPgjFvkkEeitxxhlsGG6UI.","2026-02-03 08:25:46","user","What is your pet name?","sheru","default.png",NULL,"229205","2026-02-08 11:06:28","500.00",,,,"banned","0",NULL
+"7","ronak","ronak@gmail.com","$2y$10$ZWt3Fk9WOoZJjaG4mAyK2e9OASId4SeiW8ygiCgNg0qkXLptdaX8i","2026-02-03 10:54:54","user","What city were you born in?","2005","default.png",,NULL,NULL,"500.00","ronak karena","+918460237242","ahemdabad","banned","0",NULL
+"9","admin","admin@subtrack.com","$2y$10$TQdxV68qOFulB638JhAKweLzndolt6y2uC5ZmJ0FplbEZP7lXZHmG","2026-02-03 12:02:05","admin","What is your pet name?","dog","default.png",NULL,NULL,NULL,"500.00",,,,"active","0",NULL
+"10","justvishal","vishu@gmail.com","$2y$10$g4ImD/alySDv4xA6V9NfoOQpYde3MbfQYIcFM3atV8DKKFltJENRu","2026-02-03 19:55:17","user","What city were you born in?","bhanvad","user_10_1770130481.jpg","hello
+",NULL,NULL,"300.00",,,,"active","0",NULL
+"11","vedant","vedant@gmail.com","$2y$10$TFeRq4bvyXaIMRP77hKePOaMq.ZC0L/kDQCewMlM3ykFzV8gmNtIy","2026-02-04 10:16:45","user","What is your favorite color?","black","default.png",NULL,NULL,NULL,"10.00",,,,"active","0",NULL
+"12","janki","janki@gmail.com","$2y$10$E0EuFHS35CEOyw0rBlfWsuSB63LiYTaMYhaSSeP75aBXj0TKY0uQK","2026-02-05 17:27:47","user","What city were you born in?","2000","default.png",NULL,NULL,NULL,"500.00",,,,"active","0",NULL
+"13","Nobita","shizuka@gmail.com","$2y$10$GGIYfxviDPmhWUKISBGUF.3WEic1p5rAFbt7m4k23HnrBgOvgt6Wm","2026-02-05 18:55:44","user","What is your favorite color?","pink","user_13_1770298128.jpeg",NULL,NULL,NULL,"500.00",,,,"active","0",NULL

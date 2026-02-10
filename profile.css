@@ -1,0 +1,72 @@
+/* profile.css */
+.profile-header-banner {
+    height: 150px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px 15px 0 0;
+}
+
+.profile-avatar-container {
+    margin-top: -75px; /* Pulls the image up into the banner */
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.profile-avatar-lg {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.upload-icon-overlay {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: #e94560;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 0.2s;
+}
+
+.upload-icon-overlay:hover {
+    transform: scale(1.1);
+    background: #d63031;
+}
+
+.settings-nav .nav-link {
+    color: #555;
+    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    transition: 0.2s;
+}
+
+.settings-nav .nav-link:hover {
+    background-color: #f8f9fa;
+    color: #667eea;
+}
+
+.settings-nav .nav-link.active {
+    background-color: #eef2f5;
+    color: #667eea;
+    border-left: 4px solid #667eea;
+}
+
+.danger-zone {
+    border: 1px solid #ffcccc;
+    background: #fff5f5;
+    border-radius: 10px;
+    padding: 20px;
+}
+

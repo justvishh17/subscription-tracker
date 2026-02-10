@@ -1,0 +1,105 @@
+/* signup.css - Professional Unified Split Layout */
+:root {
+    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --bg-card: #ffffff;
+    --text-main: #212529;
+    --text-muted: #6c757d;
+}
+
+body {
+    background: var(--primary-gradient);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow: hidden; /* Fixes everything into one non-scrollable frame */
+}
+
+/* Horizontal Main Frame */
+.signup-container {
+    display: flex;
+    width: 1100px;
+    max-width: 95%;
+    height: 720px; 
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.3);
+    overflow: hidden;
+    animation: fadeInPage 0.6s ease-out forwards;
+}
+
+/* Left side: Branding */
+.brand-panel {
+    flex: 1;
+    background: var(--primary-gradient);
+    color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+/* Right side: Form */
+.form-panel {
+    flex: 1.4;
+    padding: 40px 60px;
+    background: white;
+    overflow-y: auto; /* Internal scroll only if window is small */
+}
+
+.form-section {
+    border: 1px solid #f3f4f6;
+    border-radius: 15px;
+    padding: 15px 20px;
+    background: #fcfcfc;
+    margin-bottom: 15px;
+}
+
+.form-section h6 {
+    color: #667eea;
+    margin-bottom: 12px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+.form-floating input, .form-floating select {
+    border-radius: 12px;
+    background: #f8f9fa;
+    border: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
+.btn-primary-modern {
+    background: var(--primary-gradient);
+    border: none;
+    border-radius: 12px;
+    padding: 14px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    transition: all 0.3s;
+}
+
+.btn-primary-modern:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(118, 75, 162, 0.4);
+}
+
+/* Password Strength Meter UI */
+#strength-bar { 
+    height: 8px; 
+    border-radius: 10px; 
+    transition: all 0.3s ease; 
+}
+
+@keyframes fadeInPage {
+    0% { opacity: 0; transform: translateY(15px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
