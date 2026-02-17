@@ -130,7 +130,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="mb-4"><i class="fas fa-rocket fa-4x mb-4"></i></div>
         <h1 class="fw-bold display-4">Welcome Back</h1>
         <p class="fs-5 opacity-75">Log in to manage your subscriptions.</p>
-        <div class="mt-auto"><a href="admin_login.php" class="text-white small opacity-75 text-decoration-none">Admin Portal</a></div>
+        <div class="mt-auto"><a href="admin_login.php" class="text-white small opacity-75 text-decoration-none" >Admin Portal</a></div>
     </div>
 
     <div class="form-side">

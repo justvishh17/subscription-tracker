@@ -282,15 +282,25 @@ $spend_msg = $is_over_budget ? "<i class='fas fa-exclamation-triangle'></i> Over
 
     <style>
         :root {
-            --bg-body: #f8f9fa; --bg-card: #ffffff; --text-main: #212529; --text-muted: #6c757d;
-            --border-color: #eef2f5; --navbar-bg: #ffffff; --shadow: 0 2px 15px rgba(0,0,0,0.04);
+            --bg-body: #f8f9fa; 
+            --bg-card: #ffffff; 
+            --text-main: #212529; 
+            --text-muted: #6c757d;
+            --border-color: #eef2f5; 
+            --navbar-bg: #ffffff; 
+            --shadow: 0 2px 15px rgba(0,0,0,0.04);
             /* Calendar variables */
             --cal-btn-bg: #f1f3f5; --cal-btn-text: #495057; --cal-grid: #e9ecef; --cal-today: rgba(102, 126, 234, 0.1);
         }
 
         body.dark-mode {
-            --bg-body: #0f172a; --bg-card: #1e293b; --text-main: #f1f5f9; --text-muted: #94a3b8;
-            --border-color: #334155; --navbar-bg: #1e293b; --shadow: 0 4px 20px rgba(0,0,0,0.3);
+            --bg-body: #0f172a; 
+            --bg-card: #1e293b; 
+            --text-main: #f1f5f9; 
+            --text-muted: #94a3b8;
+            --border-color: #334155; 
+            --navbar-bg: #1e293b; 
+            --shadow: 0 4px 20px rgba(0,0,0,0.3);
             /* Dark Calendar */
             --cal-btn-bg: #334155; --cal-btn-text: #e2e8f0; --cal-grid: #334155; --cal-today: rgba(59, 130, 246, 0.15);
         }
